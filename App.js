@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Button,Image } from "react-native";
+import { StyleSheet, Text, View, Button,Image ,SafeAreaView} from "react-native";
 import React from "react";
 import HomeScreen from "./screen/HomeScreen";
 
@@ -10,7 +10,7 @@ import {
   DrawerItemList,
   DrawerItem,
 } from "@react-navigation/drawer";
-import { SafeAreaView } from "react-native-web";
+
 
 const MyTheme = {
   ...DefaultTheme,
